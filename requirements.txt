@@ -1,1 +1,15 @@
-appwrite
+# Core dependencies
+streamlit==1.32.0
+fastapi==0.110.0
+uvicorn==0.29.0
+requests==2.31.0
+
+# Optional: environment variable support
+python-dotenv==1.0.1
+
+# Optional: NLP enhancements (if you want smarter responses later)
+spacy==3.7.2
+nltk==3.8.1
+
+# Optional: AI model integration (if using OpenAI or Groq APIs)
+openai==1.12.0
